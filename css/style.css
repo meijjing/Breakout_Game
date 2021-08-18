@@ -1,0 +1,134 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+.gamestart {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  background: url('../img/bg-start.jpg') no-repeat center center;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gamestart #play {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 130px;
+  filter: drop-shadow(0px 0px 9px rgba(0,0,0,.8));
+}
+
+.gamestart p {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  margin: 20px 0 40px 0;
+}
+
+.gamestart #start {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  filter: drop-shadow(0px 0px 10px black);
+  background: rgba(0,0,0,.3);
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.breakoutGame {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#breakout {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+}
+
+#sound {
+  position: absolute;
+  top: 465px;
+  left: 8px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,.8));
+}
+
+#gameover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 500px;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+
+#youwin {
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -150px;
+  display: none;
+}
+
+#youlose {
+  width: 250px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: -134px;
+  display: none;
+}
+
+#restart {
+  position: absolute;
+  top: 320px;
+  left: 0;
+
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+#restart p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 20px auto;
+}
+
+#restart .btns {
+  display: flex;
+  justify-content: space-around;
+  width: 220px;
+  margin: 0 auto;
+}
+
+#restart button {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 10px;
+  background: #000000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
